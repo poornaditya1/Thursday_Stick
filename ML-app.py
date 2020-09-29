@@ -32,7 +32,6 @@ def remove(string):
     return string.replace("_", " ") 
 
 
-st.info(__doc__)
 st.markdown(STYLE, unsafe_allow_html=True)
 
 st.title("Blind Aid Cane Software Demo")
