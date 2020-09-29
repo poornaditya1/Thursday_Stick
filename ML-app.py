@@ -27,7 +27,7 @@ def scale_image(image):
 
 def decode_image(image):
   img = tf.image.decode_jpeg(image,channels=3)
-  img = scale(img)
+  img = scale_image(img)
   return img
 
 def remove(string): 
@@ -37,7 +37,7 @@ def remove(string):
 st.markdown(STYLE, unsafe_allow_html=True)
 
 st.title("Blind Aid Cane Software Demo")
-path = st.text_input("Enter image URL to classify: ")
+path = st.text_input("Enter image URL to classify: ","https://www.extremetech.com/wp-content/uploads/2019/12/SONATA-hero-option1-764A5360-edit.jpg")
 content = requests.get(path).content
 
 
