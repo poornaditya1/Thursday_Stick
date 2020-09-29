@@ -48,7 +48,7 @@ preds = model.predict(processed_image)
 pred_class = decode_predictions(preds, top=1)
 print(pred_class)
 string = pred_class[0][0][1]
-
+print(remove(string))
 
 tts = gTTS(remove(string)) 
 tts.save('1.mp4')
