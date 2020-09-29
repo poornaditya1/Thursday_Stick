@@ -3,4 +3,3 @@ streamlit
 tensorflow
 keras
 gtts
-IPython.display
