@@ -1,0 +1,7 @@
+numpy
+streamlit
+tensorflow
+keras
+io
+gtts
+IPython.display
