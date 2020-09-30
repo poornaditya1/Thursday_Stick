@@ -13,4 +13,7 @@ It can classify 1000 different objects and it reads out the name of the object.
 
 The camera on the walking stick captures the image of the obstacle ahead. Then our code, classifies the image and reads out the name of the obstacle to the user so he/she can act accordingly
 
+# ResNet50
+
+A great visualisation of the 50 layers of the ResNet model can be found [here](https://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006)
 
