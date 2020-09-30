@@ -11,6 +11,6 @@ It can classify 1000 different objects and it reads out the name of the object.
 
 ## Working of the model 
 
-
+The camera on the walking stick captures the image of the obstacle ahead. Then our code, classifies the image and reads out the name of the obstacle to the user so he/she can act accordingly
 
 
