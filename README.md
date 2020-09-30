@@ -27,6 +27,12 @@ Finally, the network has an Average Pooling layer followed by a fully connected 
 
 ![Architecture of ResNet50](https://cv-tricks.com/wp-content/uploads/2019/07/ResNet50_architecture-1.png)
 
+### Key Features of ResNet:
+
+* ResNet uses Batch Normalization at its core. The Batch Normalization adjusts the input layer to increase the performance of the network. The problem of covariate shift is mitigated.
+* ResNet makes use of the Identity Connection, which helps to protect the network from vanishing gradient problem.
+* Deep Residual Network uses bottleneck residual block design to increase the performance of the network.
+
 # Story behind the name:
 
 Just like Iron Man had his own AI assistant "FRIDAY" (after "JARVIS"), our solution is a smart assistant for visually challenged people that can assist them in their daily lives. Obviously, our assistant isn't as advanced as "FRIDAY", so we present "Thursday_Stick", an assistant at a level lower than the super-smart "FRIDAY" 
