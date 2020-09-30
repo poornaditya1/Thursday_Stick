@@ -17,6 +17,9 @@ The camera on the walking stick captures the image of the obstacle ahead. Then o
 
 A great visualisation of the 50 layers of the ResNet model can be found [here](https://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006)
 
+### Architecture of ResNet50
+![Architecture of ResNet50](https://cv-tricks.com/wp-content/uploads/2019/07/ResNet50_architecture-1.png)
+
 # Story behind the name:
 
 Just like Iron Man had his own AI assistant "FRIDAY" (after "JARVIS"), our solution is a smart assistant for visually challenged people that can assist them in their daily lives. Obviously, our assistant isn't as advanced as "FRIDAY", so we present "Thursday_Stick", an assistant at a level lower than the super-smart "FRIDAY" 
